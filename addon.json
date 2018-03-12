@@ -1,0 +1,19 @@
+{
+    "name": "Statistics Footer",
+    "description": "Adds Total View, Total User, and Total Discussion Topic Counts to Footer on Discussion Page",
+    "version": "4",
+    "hasLocale": true,
+    "license": "GNU GPL2",
+    "settingsUrl": "/plugin/StatisticsFooter",
+    "key": "StatisticsFooter",
+    "type": "addon",
+    "authors": [
+        {
+            "name": "Julien DARRIBAU"
+        }
+    ],
+    "require": {
+        "vanilla": ">=2.5"
+    },
+	"icon": "icon.png"
+}
