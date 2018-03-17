@@ -1,4 +1,4 @@
-Original Plugin by @peregrine, Redistributed by VrijVlinder with Peregrine's permission.
+Original Plugin by @peregrine, Redistributed by VrijVlinder with Peregrine's permission. Update by me to support vanilla 2.5
 Thanks for using the Plugin.
 
 Please go to the settings page in the dashboard for this plugin.
