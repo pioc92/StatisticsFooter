@@ -51,8 +51,18 @@ class StatisticsFooterPlugin extends Gdn_Plugin {
 
 
  $ShowMe =   c('Plugins.StatisticsFooter.Show');
+  if (strpos($ShowMe, "v")  !== FALSE)
+   echo Wrap(Wrap(T('View Count')) . $SFVcount, 'div', array('class' => 'SFBox SFVCBox'));
 
+  if (strpos($ShowMe, "u") !== FALSE)
+   echo Wrap(Wrap(T('User Count')) . $SFUcount, 'div', array('class' => 'SFBox SFUBox'));
 
+  if (strpos($ShowMe, "t") !== FALSE)
+   echo Wrap(Wrap(T('Topic Count')) . $SFDcount, 'div', array('class' => 'SFBox SFTBox'));
+
+  if (strpos($ShowMe, "c") !== FALSE)
+   echo Wrap(Wrap(T('Post Count')) . $SFPcount, 'div', array('class' => 'SFBox SFPBox'));
+/*
    if (strpos($ShowMe, "v")  !== FALSE)
    echo Wrap(Wrap(T('View Count')) . Gdn_Format::BigNumber($SFVcount), 'div', array('class' => 'SFBox SFVCBox'));
 
@@ -64,6 +74,7 @@ class StatisticsFooterPlugin extends Gdn_Plugin {
 
   if (strpos($ShowMe, "c") !== FALSE)
    echo Wrap(Wrap(T('Post Count')) . Gdn_Format::BigNumber($SFPcount), 'div', array('class' => 'SFBox SFPBox'));
+ */
     }
 
  public function GetUserCount(){
